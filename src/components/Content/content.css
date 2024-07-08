@@ -1,0 +1,5 @@
+.container{
+    width: 100%;
+    background-color: lightgray;
+    height: calc(100vh- 80px);
+}

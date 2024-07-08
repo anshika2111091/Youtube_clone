@@ -1,0 +1,78 @@
+.side{
+  height: calc(100vh - 80px);
+  z-index: 1;
+  position:sticky;
+  top:80px;
+  padding:20px;
+  bottom:0;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  background-color: #fff;
+}
+
+
+.sidebar{
+    list-style-type: none;
+    margin-bottom:15px ;
+    display: flex;
+    flex-direction: column;
+    gap:22px;
+}
+.sidebarItem{
+display: flex;
+gap:15px;
+cursor:pointer;
+
+}
+
+.sidebaricon{
+    font-size: 20px;
+    color:gray;
+    padding-bottom: 3px;
+ 
+    
+}
+.desc{
+    display: none;
+  
+}
+hr{
+    width: 80%;
+}
+
+.subscriber{
+    margin-top:15px;
+    
+}
+
+h4{
+    color:gray;
+    margin-bottom: 15px;
+}
+.subs{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+   
+
+}
+.subitem{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+
+
+}
+
+.subimg{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+@media (max-width: 580px) {
+    .side{
+        display: none;
+    }
+  }
